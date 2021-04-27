@@ -1,0 +1,13 @@
+type User @model {
+  id: ID!
+  name: String!
+  location: String
+  question1: String
+}
+
+type Note @model {
+  id: ID!
+  name: String!
+  description: String
+  image: String
+}
